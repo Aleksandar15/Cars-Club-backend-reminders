@@ -86,3 +86,5 @@ SELECT` is used for the "Edit Post" functionality. Without this `VIEW` the serve
 3. Have a replies sections: such `replies` table will have to connect with "comment_id" from `comments` table & the "user_id" from `users` table.
 4. On the Frontend part of UI/UX I may implement some alert/modal that will be shown on successful EDITs of the POST.
 5. Planning for having a user-profile section (_will write more info in the future_).
+
+##### Further plans (_reminders for me_) in a longer explanation:
