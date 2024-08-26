@@ -78,7 +78,7 @@ SELECT` is used for the "Edit Post" functionality. Without this `VIEW` the serve
    15. My `refresh_tokens` and `posts` tables both have a MANY-TO-ONE relationship with my `users` table.
    16. My `users` table has a ONE-TO-MANY relationship with my `refresh_tokens` and `posts` tables alike. (both sayings work.)
 
-##### Further plans (_reminders for me_)
+#### Further plans (_reminders for me_)
 
 1. Have an "edit username" & "edit e-mail" features, but that **will** require me to also run SQL Query against my PostgreSQL database `posts` table to run `UPDATE posts SET post_created_by_username=$1 WHERE user_id=$2` & respectively if I've choosen to show e-mail.
    - For `post_created_by_email` I might even implement a conditional checking in `ModalPost.tsx` (& "edits Posts") to make User decide whether to show "contact number" or "contact e-mail" or both. A toggler.
