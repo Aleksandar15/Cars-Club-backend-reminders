@@ -88,4 +88,4 @@ SELECT` is used for the "Edit Post" functionality. Without this `VIEW` the serve
 5. Planning for having a user-profile section (_will write more info in the future_).
 
 ##### Further plans (_reminders for me_) in a longer explanation:
-5. A technical plan from now for in the ftuure is: to have me fetch information from a user like: 1. Name; 2. E-mail.
+5. A technical plan from now for in the future is: to have me fetch information from a user like: 1. Name; 2. E-mail.
