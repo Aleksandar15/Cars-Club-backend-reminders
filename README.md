@@ -89,3 +89,4 @@ SELECT` is used for the "Edit Post" functionality. Without this `VIEW` the serve
 
 ##### Further plans (_reminders for me_) in a longer explanation:
 5. A technical plan from now for in the future is: to have me fetch information from a user like: 1. Name; 2. E-mail.
+ - A good possibility would be to have a User Profile Picture that they may change it from this section.
