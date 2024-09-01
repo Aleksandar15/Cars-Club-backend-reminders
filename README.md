@@ -92,3 +92,4 @@ SELECT` is used for the "Edit Post" functionality. Without this `VIEW` the serve
  - A good possibility would be to have a User Profile Picture that they may change it from this section.
    - Edit password may be cool feature to have: but I must think about the security of such an action. (May write a list of options sometimes soon.)
      - A confirmation code may be sent to e-mail or phone number
+     - Slight issue may be the speed of which the server & the free services will deliver those codes
