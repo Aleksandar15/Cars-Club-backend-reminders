@@ -94,3 +94,5 @@ SELECT` is used for the "Edit Post" functionality. Without this `VIEW` the serve
      - A confirmation code may be sent to e-mail or phone number;
      - Slight issue may be the speed of which the server & the free services will deliver those codes.
        - And then, on top of it all - will employers really "waste"/invest time into openning their e-mails just to test out this future?
+         - Wrapping up all these thoughts from my mind, I think it's to for now the 'reset password' feature to be just a simple button which is allowing an 'immediate reset'.
+           
