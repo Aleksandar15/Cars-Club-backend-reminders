@@ -82,6 +82,7 @@ SELECT` is used for the "Edit Post" functionality. Without this `VIEW` the serve
     - => In short Multer middleware's `upload.single` instance middleware populates the `req.body` exactly the same as what `express.json` middleware AKA `bodyParser` middleware under the hood does.
    15. My `refresh_tokens` and `posts` tables both have a MANY-TO-ONE relationship with my `users` table.
    16. My `users` table has a ONE-TO-MANY relationship with my `refresh_tokens` and `posts` tables alike. (both sayings work.)
+   17. To avoid the error `POST https://cars-club.netlify.app/api/api/v1/post/createpost 502 (Bad Gateway)` I have to make sure the images are at 1080px or smaller. An easy way to resize is using https://redketchup.io/image-resizer & _export as JPG_.
 
 #### Further plans (_reminders for me_)
 
